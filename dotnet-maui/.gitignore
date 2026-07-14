@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+
+# Developer-supplied Firebase config (DO NOT commit — contains project keys).
+# Add your own from the Firebase console; see README.
+Platforms/Android/google-services.json
+Platforms/iOS/GoogleService-Info.plist
+
+# IDE / OS
+.vs/
+.idea/
+*.user
+.DS_Store

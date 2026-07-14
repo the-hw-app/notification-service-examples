@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+.DS_Store
+captures/
+
+# Firebase config — DO NOT COMMIT. Each developer supplies their own from the
+# Firebase console (app/google-services.json). See README.md.
+app/google-services.json
+
+# Keystores / signing
+*.jks
+*.keystore

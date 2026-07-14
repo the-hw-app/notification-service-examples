@@ -1,0 +1,31 @@
+name: notification_service_flutter_todo
+description: "Minimal Flutter todo app that registers its FCM push token with Notification Service."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase (FCM push token source)
+  # Kept on the long-stable FlutterFire line: core 3.x / messaging 15.x are a
+  # mutually-compatible pair. (core 4.x + messaging 16.4.2 mis-resolve against
+  # firebase_core_platform_interface 7.x, which dropped the FirebasePlugin mixin
+  # messaging 16.4.2 still references.) The Dart APIs used here are identical.
+  firebase_core: ^3.15.0
+  firebase_messaging: ^15.2.9
+
+  # Networking + local persistence + ids
+  http: ^1.6.0
+  shared_preferences: ^2.5.5
+  uuid: ^4.5.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

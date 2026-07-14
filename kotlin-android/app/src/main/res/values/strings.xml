@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notification Service Todo</string>
+
+    <!-- Todo UI -->
+    <string name="new_todo_hint">New todo</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+
+    <!-- Notification registration -->
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="enabling_notifications">Enabling…</string>
+    <string name="status_working">Registering with Notification Service…</string>
+    <string name="status_registered">Registered with Notification Service.</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="notifications_permission_denied">Notification permission denied.</string>
+    <string name="notification_default_body">You have a new notification.</string>
+
+    <!-- Notification channel. The id must match Notifications.CHANNEL_ID. -->
+    <string name="default_notification_channel_id">notification_service_default</string>
+    <string name="default_notification_channel_name">General</string>
+    <string name="default_notification_channel_desc">General notifications from Notification Service.</string>
+</resources>

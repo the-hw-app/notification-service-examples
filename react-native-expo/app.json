@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Notification Service Todo",
+    "slug": "notification-service-todo-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "notificationservicetodo",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.example.notificationservicetodo",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.notificationservicetodo",
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff",
+          "defaultChannel": "default"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}

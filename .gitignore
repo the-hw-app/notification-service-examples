@@ -1,0 +1,73 @@
+# ─────────────────────────────────────────────────────────────
+# OS / editor
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ─────────────────────────────────────────────────────────────
+# Secrets / machine-local config  (NEVER commit)
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+local.properties
+.api-key.local
+
+# Firebase / push config — each user supplies their own.
+google-services.json
+GoogleService-Info.plist
+
+# ─────────────────────────────────────────────────────────────
+# Node / JavaScript  (react-native-expo, capacitor-nextjs)
+# ─────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.next/
+out/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# ─────────────────────────────────────────────────────────────
+# Android / Kotlin / Gradle  (kotlin-android, flutter android)
+# ─────────────────────────────────────────────────────────────
+.gradle/
+**/build/
+*.apk
+*.aab
+*.keystore
+*.jks
+captures/
+
+# ─────────────────────────────────────────────────────────────
+# Flutter / Dart  (flutter-todo)
+# ─────────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/ios/Pods/
+**/ios/.symlinks/
+
+# ─────────────────────────────────────────────────────────────
+# .NET / MAUI  (dotnet-maui)
+# ─────────────────────────────────────────────────────────────
+bin/
+obj/
+*.user
+
+# ─────────────────────────────────────────────────────────────
+# Swift / Xcode  (swift-ios)
+# ─────────────────────────────────────────────────────────────
+.build/
+DerivedData/
+*.xcuserstate
+Pods/

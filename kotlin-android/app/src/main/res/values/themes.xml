@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. The UI itself is Compose + Material3; this XML
+         theme only styles the window before Compose takes over. -->
+    <style name="Theme.NotificationServiceTodo" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
